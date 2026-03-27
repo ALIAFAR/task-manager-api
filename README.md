@@ -37,9 +37,12 @@ REST API для системы учета задач с авторизацией
    git clone https://github.com/ALIAFAR/task-manager-api.git
    cd task-manager-api
 2. Запустите приложение:
+    ```bash
    docker-compose up -d
 Приложение доступно по адресу: http://localhost:7000
-3. Остановка приложения
+4. Остановка приложения
+   ```bash
    docker-compose down
-4. Запуск тестов
+5. Запуск тестов
+    ```bash
    npm test
