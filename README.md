@@ -38,6 +38,7 @@ REST API для системы учета задач с авторизацией
    cd task-manager-api
 2. Запустите приложение:
     ```bash
+   npm install
    docker-compose up -d
 3. Приложение доступно по адресу: http://localhost:7000
 4. Остановка приложения
